@@ -1,0 +1,10 @@
+<h1>Make A Post</h1>
+
+<%= form_for @post do |f| %>
+
+  <div class="form-section">
+   <%= f.label :user_id %>
+   <%= f.select :user_id, options_for_select(@user_list) %>
+  </div>
+
+<% end -%>
