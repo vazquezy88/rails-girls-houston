@@ -57,6 +57,7 @@ th, td{
   line-height: 28px;
   cursor: pointer;
   font-weight: bold;
+  color: green;
 }
 
 input[type="text"], textarea{
